@@ -178,7 +178,7 @@ footer{
   }
 }
 /* Phone Responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   /* Navigation */
   .logo-name {
     display: none;
@@ -188,6 +188,9 @@ footer{
   }
   .desktop {
     display: none;
+  }
+  .navigation a {
+    font-size: 1.5rem;
   }
   /* Header */
   header {
@@ -218,7 +221,7 @@ footer{
     justify-content: space-around;
   }
   .icon h4 {
-    font-size: 0.77rem;
+    font-size: 1rem;
   }
   /* Philospohy and Appointments */
   .info-flex {
