@@ -88,6 +88,7 @@ figure {
 /* Philosophy and Contact */
 .info-flex {
   justify-content: center;
+  align-items: flex-start;
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
@@ -100,7 +101,7 @@ figure {
 .app {
   margin-left: 2.5%;
 }
-.phil-app h2 {
+.info h2 {
   width: 10rem;
   font-weight: bold;
   font-size: 1rem;
@@ -117,4 +118,138 @@ footer{
 .black-logo {
   height: 1.5rem;
   margin-right: 1rem;
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .menu {
+    display: none
+  }
+}
+/* Tablet Mode */
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+  /* Header */
+  header {
+    background-size: center;
+    padding-top: 0;
+    height: 22rem;
+  }
+  .headline {
+    font-size: 1.33rem;
+    padding: 1.75rem 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+  /* Figure */
+  figure {
+    width: 6rem;
+    height: 9rem;
+  }
+  .paper {
+    width: 4rem;
+  }
+  .ruler {
+    width: 6rem;
+  }
+  .truck {
+    width: 6rem;
+  }
+  /* Philosophy and Appointments */
+  .info-flex {
+    justify-content: center;
+  }
+  .info {
+    width: 40%;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+  }
+  .info h2{
+    width: 80%;
+  }
+  .phil {
+    margin-right: 5%;
+  }
+}
+/* Phone Responsive */
+@media only screen and (max-width: 600px) {
+  /* Navigation */
+  .logo-name {
+    display: none;
+  }
+  .logo-white {
+    height: 2rem;
+  }
+  .desktop {
+    display: none;
+  }
+  /* Header */
+  header {
+    height: 17rem;
+    background-position: left;
+  }
+  .headline {
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 9rem auto 1rem auto;
+  }
+  /* Icons */
+  .icon-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  figure {
+    margin-top: 1.54rem;
+    margin-bottom: 0;
+    width: 6rem;
+    height: 9rem;
+    justify-content: space-around;
+  }
+  .icon h4 {
+    font-size: 0.77rem;
+  }
+  /* Philospohy and Appointments */
+  .info-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+  .info h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .info p {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .app {
+    margin-top: 4rem;
+  }
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .black-logo {
+    height: 2rem;
+  }
 }
