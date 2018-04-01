@@ -59,3 +59,62 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+/* Icon section*/
+.icon-flex {
+  justify-content: center;
+  margin-top: 3rem;
+}
+figure {
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon h4 {
+  text-align: center;
+}
+.paper {
+  width: 3.5rem;
+}
+.ruler {
+  width: 5rem;
+}
+.truck {
+  width: 5rem;
+}
+/* Philosophy and Contact */
+.info-flex {
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.info {
+  width: 35%;
+}
+.phil {
+  margin-right: 2.5%;
+}
+.app {
+  margin-left: 2.5%;
+}
+.phil-app h2 {
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: Cadetblue;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+}
+/* Footer */
+footer{
+  background-color: Azure;
+  padding: 4rem 4rem;
+}
+.black-logo {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
